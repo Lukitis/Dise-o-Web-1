@@ -1,0 +1,5 @@
+.productos{
+    background: #a87676;
+    display: flex;
+    flex-wrap: wrap;
+}
