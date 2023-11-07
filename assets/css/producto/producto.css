@@ -4,3 +4,8 @@
     flex-direction: column;
     margin-bottom: 3rem;
 }
+@media screen and (min-width:0){
+    .producto{
+        margin-right: 1rem;
+    }
+}

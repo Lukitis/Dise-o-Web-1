@@ -1,5 +1,17 @@
 .contenido__titulo{
-    color: rgb(0, 0, 0);
-    font-family: 'Indie Flower',cursive;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+@media screen and (min-width:0) {
+    .contenido__mensaje{
+        font-size: 2rem;  
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .contenido__mensaje{
+        font-size: 2.5rem;  
+    }
+    
 }

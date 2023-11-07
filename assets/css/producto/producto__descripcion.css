@@ -1,6 +1,6 @@
 .producto__descripcion{
     text-align: justify;
     line-height: 1,5;
-    color: black;
-    font-family: 'Indie Flower', cursive;
+    color: darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
