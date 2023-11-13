@@ -1,0 +1,33 @@
+.producto{
+   display: flex;
+    flex-wrap: wrap;
+    background: #fdfdfd;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.producto__contenido{
+    padding: 1rem;
+}
+.producto__titulo{
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    display: flex;
+}
+.producto__descripcion{
+    display: flex;
+    text-align: justify;
+    line-height: 1,5;
+    color: darkcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conta{
+    text-align: center;
+}
+.subtitulo{
+    color: rgb(236, 80, 7);
+}
+.imna{
+    height: 100px;
+    width: 100px;
+}

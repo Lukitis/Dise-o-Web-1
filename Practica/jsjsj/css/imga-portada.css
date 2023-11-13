@@ -1,0 +1,32 @@
+.cont{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: azure;
+    font-size: 2rem;
+    text-align: right;
+}
+.portada__hg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    right: 100%;
+}
+.centrado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    font-size: 4rem;
+}
+.cente{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,31 @@
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+.headerPrincipal-titulo{
+    display: flex;
+}
+.header-im{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headerPrincipal-titul {
+	padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+    font-size: 0.9rem;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    width: 100%;
+    left: 0%;
+
+}
+.header_nombre{
+    font-size: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 100%;
+    left: 50%;
+    display: flex;
+    
+}
