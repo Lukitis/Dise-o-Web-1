@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4682b4;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.brand{
+    margin-top: -7px;
+}
+.brand span{
+ color: #afeeee;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu .active{
+    color: #afeeee;
+}
+.menu a:hover{
+    background-color: #afeeee;
+    color: #4682b4;
+    transition: ease-in .4s;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+span {
+    color: #afeeee;
+}
+.download-cv{
+    padding: 10px 20px;
+    background-color: #afeeee;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px  rgba(102, 231, 200, .69);
+}
+.download-cv:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+.main img {
+    width: 300px;
+    border: 7px solid #3cb371;
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+  }
+  
+  .about img {
+    width: 100%;
+    grid-column: 1/5;
+  }
+  
+  .about-info {
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  
+  .about-info h2 {
+    font-size: 2em;
+    color: #7b68ee;
+  }
+  
+  .divider {
+    height: 4px;
+    width: 60px;
+    background-color: #afeeee;
+    margin-top: 5px;
+    margin-bottom: 2em;
+  }
+  
+  .about p {
+    margin-bottom: 1em;
+  }
+  
+  .portfolio,
+  .contact-section {
+    width: 100vw;
+    background-color: #B0C4DE;
+    color: #fff;
+  }
+  
+  .portfolio-heading {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  
+  .portfolio-heading h2,
+  .contact-heading h2 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #2b3058;
+    margin: 1em;
+  }
+  
+  .card__img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  
+  .card__title {
+    padding: 20px;
+  }
+  
+  .card__proyect-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card__proyect-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .card__proyect-links i {
+    font-size: 1.5em;
+  }
+  
+  .button-content {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+  
+  .project-details-button a {
+    text-decoration: none;
+    color: #4682b4;
+  }
+  
+  
+  .contact-section {
+    padding: 3em;
+  }
+  
+  .container-contact {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .container-contact .immg {
+    width: 450px;
+    height: 450px;
+  }
+  
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    gap: 2em;
+    align-items: center;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #afeeee;
+  }
+  
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: #afeeee;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;
+  }
+  
+  .portfolio,
+  .contact-section {
+    width: 100vw;
+    background-color: #4682b4;
+    color: #fff;
+  }
+  
+  .portfolio-heading {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+  }
+  
+  
+  .portfolio-heading h2,
+  .contact-heading h2 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #3cb371;
+    margin: 1em;
+  }
+  
+  .card__img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  
+  .card__title {
+    padding: 20px;
+  }
+  
+  .card__proyect-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card__proyect-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .card__proyect-links i {
+    font-size: 1.5em;
+  }
+  
+  .button-content {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+  
+  .project-details-button a {
+    text-decoration: none;
+    color: #4682b4;
+  }
+  
+  .contact-section {
+    padding: 3em;
+  }
+  
+  .container-contact {
+    margin: 0 auto;
+    margin-top: 10em;
+    color: #0a0808;
+  }
+  
+  
+  
+  .contact-section img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+    color: #0a0808;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    color: #0a0808;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #0a0808;
+    color: #0a0808;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #0a0808;
+    color: #0a0808;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #afeeee;
+  }
+  
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    padding: 2em;
+    background-color: #afeeee;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;
+  }
